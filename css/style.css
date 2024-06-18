@@ -1846,6 +1846,17 @@ button.swiper-pagination-bullet {
     padding-bottom: 3.125rem;
     width: 100%
   }
+  .text-about__description {
+    font-size: .875rem;
+    line-height: 20px
+  }
+  .button {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+    font-size: .875rem
+  }
   .donate__slider {
     height: 530px
   }
@@ -2126,46 +2137,6 @@ button.swiper-pagination-bullet {
       font-size: calc(1.5rem + .5 * (100vw - 22.5rem)/ 25.5)
     }
   }
-  @supports (padding-top:clamp(1.25rem ,1.25rem + 0vw ,1.25rem)) {
-    .button {
-      padding-top: clamp(1.25rem ,1.25rem + 0 ,1.25rem)
-    }
-  }
-  @supports not (padding-top:clamp(1.25rem ,1.25rem + 0vw ,1.25rem)) {
-    .button {
-      padding-top: calc(1.25rem + 0 * (100vw - 22.5rem)/ 25.5)
-    }
-  }
-  @supports (padding-bottom:clamp(1.25rem ,1.25rem + 0vw ,1.25rem)) {
-    .button {
-      padding-bottom: clamp(1.25rem ,1.25rem + 0 ,1.25rem)
-    }
-  }
-  @supports not (padding-bottom:clamp(1.25rem ,1.25rem + 0vw ,1.25rem)) {
-    .button {
-      padding-bottom: calc(1.25rem + 0 * (100vw - 22.5rem)/ 25.5)
-    }
-  }
-  @supports (padding-left:clamp(3.75rem ,3.75rem + 0vw ,3.75rem)) {
-    .button {
-      padding-left: clamp(3.75rem ,3.75rem + 0 ,3.75rem)
-    }
-  }
-  @supports not (padding-left:clamp(3.75rem ,3.75rem + 0vw ,3.75rem)) {
-    .button {
-      padding-left: calc(3.75rem + 0 * (100vw - 22.5rem)/ 25.5)
-    }
-  }
-  @supports (padding-right:clamp(3.75rem ,3.75rem + 0vw ,3.75rem)) {
-    .button {
-      padding-right: clamp(3.75rem ,3.75rem + 0 ,3.75rem)
-    }
-  }
-  @supports not (padding-right:clamp(3.75rem ,3.75rem + 0vw ,3.75rem)) {
-    .button {
-      padding-right: calc(3.75rem + 0 * (100vw - 22.5rem)/ 25.5)
-    }
-  }
   @supports (row-gap:clamp(3.125rem ,0.3676470588rem + 12.2549019608vw ,6.25rem)) {
     .donate__container {
       row-gap: clamp(3.125rem ,.3676470588rem + 12.2549019608vw ,6.25rem)
@@ -2437,26 +2408,6 @@ button.swiper-pagination-bullet {
   }
   @supports not (font-size:clamp(0.875rem ,0.875rem + 0vw ,0.875rem)) {
     .text-about__description {
-      font-size: calc(.875rem + 0 * (100vw - 20rem)/ 28)
-    }
-  }
-  @supports (line-height:clamp(1.1875rem ,1.1428571429rem + 0.2232142857vw ,1.25rem)) {
-    .text-about__description {
-      line-height: clamp(1.1875rem ,1.1428571429rem + .2232142857vw ,1.25rem)
-    }
-  }
-  @supports not (line-height:clamp(1.1875rem ,1.1428571429rem + 0.2232142857vw ,1.25rem)) {
-    .text-about__description {
-      line-height: calc(1.1875rem + .0625 * (100vw - 20rem)/ 28)
-    }
-  }
-  @supports (font-size:clamp(0.875rem ,0.875rem + 0vw ,0.875rem)) {
-    .button {
-      font-size: clamp(.875rem ,.875rem + 0 ,.875rem)
-    }
-  }
-  @supports not (font-size:clamp(0.875rem ,0.875rem + 0vw ,0.875rem)) {
-    .button {
       font-size: calc(.875rem + 0 * (100vw - 20rem)/ 28)
     }
   }
