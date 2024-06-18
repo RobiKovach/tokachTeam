@@ -1843,7 +1843,8 @@ button.swiper-pagination-bullet {
   .about__text {
     order: 1;
     padding-top: 3.125rem;
-    padding-bottom: 3.125rem
+    padding-bottom: 3.125rem;
+    width: 100%
   }
   .donate__slider {
     height: 530px
@@ -2439,14 +2440,14 @@ button.swiper-pagination-bullet {
       font-size: calc(.875rem + 0 * (100vw - 20rem)/ 28)
     }
   }
-  @supports (line-height:clamp(1.25rem ,1.25rem + 0vw ,1.25rem)) {
+  @supports (line-height:clamp(1.1875rem ,1.1428571429rem + 0.2232142857vw ,1.25rem)) {
     .text-about__description {
-      line-height: clamp(1.25rem ,1.25rem + 0 ,1.25rem)
+      line-height: clamp(1.1875rem ,1.1428571429rem + .2232142857vw ,1.25rem)
     }
   }
-  @supports not (line-height:clamp(1.25rem ,1.25rem + 0vw ,1.25rem)) {
+  @supports not (line-height:clamp(1.1875rem ,1.1428571429rem + 0.2232142857vw ,1.25rem)) {
     .text-about__description {
-      line-height: calc(1.25rem + 0 * (100vw - 20rem)/ 28)
+      line-height: calc(1.1875rem + .0625 * (100vw - 20rem)/ 28)
     }
   }
   @supports (font-size:clamp(0.875rem ,0.875rem + 0vw ,0.875rem)) {
