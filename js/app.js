@@ -4048,6 +4048,24 @@
                 },
                 on: {}
             });
+            new swiper_core_Swiper(".pozashlahovik__slider", {
+                modules: [ Pagination, Navigation ],
+                observer: true,
+                observeParents: true,
+                slidesPerView: 1,
+                spaceBetween: 0,
+                speed: 800,
+                loop: true,
+                pagination: {
+                    el: ".swiper-pagination__pozashlahovik",
+                    clickable: true
+                },
+                navigation: {
+                    prevEl: ".swiper-button-prev",
+                    nextEl: ".swiper-button-next"
+                },
+                on: {}
+            });
         }
     }
     window.addEventListener("load", (function(e) {
