@@ -2049,36 +2049,6 @@ button.swiper-pagination-bullet {
       line-height: calc(1.25rem + 2.1875 * (100vw - 48rem)/ 72)
     }
   }
-  @supports (font-size:clamp(0.875rem ,0.2916666667rem + 1.2152777778vw ,1.75rem)) {
-    .text-about__description {
-      font-size: clamp(.875rem ,.2916666667rem + 1.2152777778vw ,1.75rem)
-    }
-  }
-  @supports not (font-size:clamp(0.875rem ,0.2916666667rem + 1.2152777778vw ,1.75rem)) {
-    .text-about__description {
-      font-size: calc(.875rem + .875 * (100vw - 48rem)/ 72)
-    }
-  }
-  @supports (line-height:clamp(1.25rem ,-0.2083333333rem + 3.0381944444vw ,3.4375rem)) {
-    .text-about__description {
-      line-height: clamp(1.25rem ,-.2083333333rem + 3.0381944444vw ,3.4375rem)
-    }
-  }
-  @supports not (line-height:clamp(1.25rem ,-0.2083333333rem + 3.0381944444vw ,3.4375rem)) {
-    .text-about__description {
-      line-height: calc(1.25rem + 2.1875 * (100vw - 48rem)/ 72)
-    }
-  }
-  @supports (font-size:clamp(0.875rem ,0.2916666667rem + 1.2152777778vw ,1.75rem)) {
-    .button {
-      font-size: clamp(.875rem ,.2916666667rem + 1.2152777778vw ,1.75rem)
-    }
-  }
-  @supports not (font-size:clamp(0.875rem ,0.2916666667rem + 1.2152777778vw ,1.75rem)) {
-    .button {
-      font-size: calc(.875rem + .875 * (100vw - 48rem)/ 72)
-    }
-  }
   @supports (padding-top:clamp(1.25rem ,0.4166666667rem + 1.7361111111vw ,2.5rem)) {
     .button {
       padding-top: clamp(1.25rem ,.4166666667rem + 1.7361111111vw ,2.5rem)
@@ -2423,6 +2393,38 @@ button.swiper-pagination-bullet {
   @supports not (font-size:clamp(0.875rem ,0.4889705882rem + 1.7156862745vw ,1.3125rem)) {
     .about-about__text {
       font-size: calc(.875rem + .4375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+}
+@media (min-width:48.0625em) and (max-width:120em) {
+  @supports (font-size:clamp(0.875rem ,0.2903996525rem + 1.2163336229vw ,1.75rem)) {
+    .text-about__description {
+      font-size: clamp(.875rem ,.2903996525rem + 1.2163336229vw ,1.75rem)
+    }
+  }
+  @supports not (font-size:clamp(0.875rem ,0.2903996525rem + 1.2163336229vw ,1.75rem)) {
+    .text-about__description {
+      font-size: calc(.875rem + .875 * (100vw - 48.0625rem)/ 71.9375)
+    }
+  }
+  @supports (line-height:clamp(1.25rem ,-0.2115008688rem + 3.0408340573vw ,3.4375rem)) {
+    .text-about__description {
+      line-height: clamp(1.25rem ,-.2115008688rem + 3.0408340573vw ,3.4375rem)
+    }
+  }
+  @supports not (line-height:clamp(1.25rem ,-0.2115008688rem + 3.0408340573vw ,3.4375rem)) {
+    .text-about__description {
+      line-height: calc(1.25rem + 2.1875 * (100vw - 48.0625rem)/ 71.9375)
+    }
+  }
+  @supports (font-size:clamp(0.875rem ,0.2903996525rem + 1.2163336229vw ,1.75rem)) {
+    .button {
+      font-size: clamp(.875rem ,.2903996525rem + 1.2163336229vw ,1.75rem)
+    }
+  }
+  @supports not (font-size:clamp(0.875rem ,0.2903996525rem + 1.2163336229vw ,1.75rem)) {
+    .button {
+      font-size: calc(.875rem + .875 * (100vw - 48.0625rem)/ 71.9375)
     }
   }
 }
